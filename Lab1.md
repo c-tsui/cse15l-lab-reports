@@ -9,7 +9,7 @@
 <img width="1440" alt="select default profile  ctrl shift p" src="https://user-images.githubusercontent.com/122579894/212502134-32b50d24-0315-454d-a222-014061236ae1.png">
 
 2. Open VScode and click Terminal --> New Terminal.
-<img width="1440" alt="open terminal" src="https://user-images.githubusercontent.com/122579894/212502008-28e1d16b-feac-4d4f-b535-63112b841f3c.png">
+<img width="1440" alt="open terminal" src="https://user-images.githubusercontent.com/122579894/212567938-602f1449-54bc-4696-a301-29464ce4fe0f.png">
 
 3. Clicke '+' sign on the right-most part of the terminal, and select 'bash'.
 <img width="1440" alt="bash terminal" src="https://user-images.githubusercontent.com/122579894/212502245-236fc6ef-3632-43c8-bd11-6bd8086bb77f.png">
@@ -23,6 +23,7 @@
 <img width="1222" alt="success" src="https://user-images.githubusercontent.com/122579894/212502389-0cf471e2-9263-41b5-bf74-a46980d8cefe.png">
 
 - Trying Some Commands
+<img width="670" alt="command" src="https://user-images.githubusercontent.com/122579894/212567884-cbef7ee4-5683-4318-baa4-d9c4e71b036f.png">
 
 
 
