@@ -24,6 +24,10 @@
 
 - Trying Some Commands
 <img width="670" alt="command" src="https://user-images.githubusercontent.com/122579894/212567884-cbef7ee4-5683-4318-baa4-d9c4e71b036f.png">
-
+1. make a directory called lab 1
+2. change current directory to lab 1
+3. create a file called test.java (without any content)
+4. list all the files under test.java, which itself is the only file exists
+5. print out all working directory
 
 
