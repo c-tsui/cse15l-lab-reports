@@ -17,7 +17,7 @@
 4. Open command palette (command+shift+p) --> type 'Open User Settings (JSON)'
 <img width="1440" alt="open user ctrl shift p" src="https://user-images.githubusercontent.com/122579894/212502302-237e3afa-1bd9-4171-a8ee-64f3310f7840.png">
 
-5. Type in your account name as 'ssh cs15lwi23zz@ieng6.ucsd.edu' ('zz' replaces your specific account name) and password.
+5. Type in your account name as `ssh cs15lwi23zz@ieng6.ucsd.edu`('zz' replaces your specific account name) and password.
 
 6. Successful connect should be look like the image below.
 <img width="1222" alt="success" src="https://user-images.githubusercontent.com/122579894/212502389-0cf471e2-9263-41b5-bf74-a46980d8cefe.png">
