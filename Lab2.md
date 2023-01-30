@@ -20,4 +20,23 @@
 - an input that doesn’t induce a failure: ` {3, 3, 3} `
 - symptom: ` {5, 4, 3, 4, 5} ` and ` {3, 3, 3} `, respectively
 - before:
+```
+for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+```
+after:
+```
+int[] newArray = new int[arr.length];
+    for(int i = 0; i <arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i += 1){
+      arr[i]=newArray[i];
+    }
+```
+The issue before was that the string array was repeatedly modified instead of saving new values to an empty array. For instance, the code before changes first value to the last value, but the last value was assigned to first value, which is the modified value. 
+
+# Part 3 
+Everything I learned in week 2 and 3 was very new to me. I've never learned, for example, running a server and remotely connected to a computer. It's very interesting to write down a code that  builds my own search engine. 
 
