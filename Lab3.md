@@ -1,4 +1,7 @@
-1. `-name`-find the file(s) by its name
+In this lab report, I'm showing several different ways of using `find` command.
+***
+1. ## `-name`
+- find the file(s) by its name
 ```
 $ find written_2/non-fiction/OUP/Abernathy/*.txt
 written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -17,9 +20,10 @@ $ find written_2/travel_guides/berlitz1/WhereToLosAngeles.txt
 written_2/travel_guides/berlitz1/WhereToLosAngeles.txt
 ```
 notes: Directly find the file called _WhereToLosAngeles.txt_.
-- source: Lab Tasks section in CSE15L Lab GitHub week 4
+- source: Lab Tasks section in CSE15L Lab GitHub week 4 ([https://ucsd-cse15l-w23.github.io/week/week4/](http://a.com))
 
-2. `-type`-find the file(s) by its type
+2. ## `-type` 
+- find the file(s) by its type
 ```
 $ find ./written_2  -type d
 ./written_2
@@ -44,9 +48,10 @@ written_2/non-fiction/OUP/Berk/CH4.txt
 written_2/non-fiction/OUP/Berk/ch7.txt
 ```
 notes: Find the file(s) under _Berk_.
-- source: https://linuxhint.com/use-the-find-command-in-linux-to-search-files/#:~:text=Syntax%20of%20%E2%80%9Cfind%E2%80%9D%20Command%20in%20Linux&text=Three%20attributes%20go%20with%20the,to%20perform%20with%20the%20file.
+- source: [https://linuxhint.com/use-the-find-command-in-linux-to-search-files/#:~:text=Syntax%20of%20%E2%80%9Cfind%E2%80%9D%20Command%20in%20Linux&text=Three%20attributes%20go%20with%20the,to%20perform%20with%20the%20file](http://a.com)
 
-3. `-size`-find the file(s) by its size
+3. ## `-size`
+- find the file(s) by its size
 ```
 $ find ./written_2  -size +1M
 ```
@@ -69,7 +74,8 @@ $ find ./written_2  -size -1M -type d
 notes: Find the directory under _written_2_ which size is smaller than 1M.
 - source: ChatGPT
 
-4. `-ls`-list the details of file(s)
+4. ## `-ls`
+- list the details of file(s)
 ```
 $ find ./written_2 -type d -ls
 8148902        0 drwxr-xr-x    4 claire.tsui      staff                 128 Feb  2 09:45 ./Written_2
