@@ -1,4 +1,5 @@
 In this lab report, I'm showing several different ways of using `find` command.
+
 ***
 1. ## `-name`
 - find the file(s) by its name
