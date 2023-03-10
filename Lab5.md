@@ -63,9 +63,40 @@ travel_guides/berlitz1/WhereToJerusalem.txt:        overcrowded Jewish Quarter o
 ```
 notes: Display every occurance of the word "overcrowded" in the directory berlitz1 under travel_guides.
 ```
-???
+grep -r "civilization" travel_guides/berlitz1
+travel_guides/berlitz1/HistoryIndia.txt:        emerged in the year 2300 b.c. , creating a civilization even more
+travel_guides/berlitz1/HistoryIndia.txt:        civilization was destroyed not by Aryan conquerors, but by floods, when
+travel_guides/berlitz1/HistoryItaly.txt:        era, their civilization reached north beyond Tuscany to the Po valley
+travel_guides/berlitz1/WhereToLakeDistrict.txt:        civilization you’ll encounter after coming over the passes. The two
+travel_guides/berlitz1/HistoryDublin.txt:        history, for both the Irish themselves and civilization in general,
+travel_guides/berlitz1/HistoryIstanbul.txt:        civilization living in Mesopotamia (the region between the Tigris and
+travel_guides/berlitz1/HistoryIstanbul.txt:        civilization.
+travel_guides/berlitz1/HistoryIstanbul.txt:        civilization in decline. A race known as the Dorians came to power in
+travel_guides/berlitz1/HistoryIstanbul.txt:        outstanding civilization. By the eighth century b.c. the 12 main
+travel_guides/berlitz1/WhereToItaly.txt:        instincts of Western civilization. Only to the uninitiated do Italian
+travel_guides/berlitz1/WhereToItaly.txt:        The center of Italy is the cradle of Latin civilization,
+travel_guides/berlitz1/WhereToItaly.txt:        provide fascinating evidence of the brilliant Etruscan civilization for
+travel_guides/berlitz1/WhereToItaly.txt:        creation to the rise of civilization through the arts and
+travel_guides/berlitz1/WhereToItaly.txt:        The original territory of the ancient civilization of the
+travel_guides/berlitz1/HistoryLasVegas.txt:        included many signs of early civilization. Signs of even more
+travel_guides/berlitz1/HistoryGreek.txt:        whole Minoan civilization. Massive tidal waves swept over Crete, and
+travel_guides/berlitz1/WhereToMalaysia.txt:        courses reassure the visitor you are close to civilization.
+travel_guides/berlitz1/WhereToJapan.txt:        spiritual capital of Japanese civilization, the home of its revered
+travel_guides/berlitz1/WhereToJapan.txt:        as the cradle of Japanese civilization, despite the support of only a
+travel_guides/berlitz1/WhereToEgypt.txt:        civilization. The museum is a little dated, confusing, and often
+travel_guides/berlitz1/WhereToEgypt.txt:        West of Alexandria, civilization gives way to empty desert
+travel_guides/berlitz1/WhereToFrance.txt:        This unquestionable masterpiece of French civilization
+travel_guides/berlitz1/WhereToFrance.txt:        European civilization is by no means a dry and dusty archaeological
+travel_guides/berlitz1/WhereToDublin.txt:        political, and religious center of early Celtic civilization, seat of
+travel_guides/berlitz1/IntroIstanbul.txt:        heart of old Istanbul. Three great civilizations have shaped this part
+travel_guides/berlitz1/IntroIndia.txt:        to be a perpetual but necessary dynamic of Indian civilization.
+travel_guides/berlitz1/IntroIndia.txt:        civilizations which have enriched the country — monuments now, after
+travel_guides/berlitz1/WhatToItaly.txt:        In a country where civilizations have come and gone,
+travel_guides/berlitz1/WhereToJerusalem.txt:        of Western civilization would have been considerably altered. Legend
+travel_guides/berlitz1/IntroEgypt.txt:        greatest civilization that the world has ever seen. Two hundred years
+travel_guides/berlitz1/WhereToIstanbul.txt:        civilizations, including Babylonian ceramic panels from the time of
 ```
-notes: Display every occurance of the word "overcrowded" in the directory berlitz1 under travel_guides. It's useful when the user want to search the pattern across all files under a directory. 
+notes: Display every occurance of the word "civilization" in the directory berlitz1 under travel_guides. It's useful when the user want to search the pattern across all files under a directory. 
 - source: [https://man7.org/linux/man-pages/man1/grep.1.html](http://a.com)
 
 4. ## `-c`
