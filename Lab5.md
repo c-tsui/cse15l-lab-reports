@@ -44,7 +44,7 @@ $ grep -n "civilization" travel_guides/berlitz1/WhereToItaly.txt
 913:        creation to the rise of civilization through the arts and
 1454:        The original territory of the ancient civilization of the
 ```
-notes: This option allows user know where the pattern is specifically. 
+notes: Locate "civilization" in terms of line number. This option allows user know where the pattern is specifically. 
 - source: ChatGPT
 
 3. ## `-r`
