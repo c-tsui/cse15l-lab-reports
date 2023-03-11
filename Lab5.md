@@ -25,7 +25,7 @@ $ grep -i "keep" travel_guides/berlitz1/WhereToItaly.txt
         stylish international crowd keeps its many small hostelries and two
         Piccola — are protected as a zona monumentale. Shopkeepers are happy to
 ```
-notes: Easier for the user to find the patterns without adjusting uppercase to lowercase, vice versa. It's also useful when the user doesn't know the case of the patterns.
+notes: Display the word "keep" disregarding its case. Easier for the user to find the patterns without adjusting uppercase to lowercase, vice versa. It's also useful when the user doesn't know the case of the patterns.
 - source: [https://man7.org/linux/man-pages/man1/grep.1.html](http://a.com)
 
 2. ## `-n`
@@ -35,7 +35,7 @@ $ grep -n "nowhere" travel_guides/berlitz1/WhereToItaly.txt
 1989:        gondola that appears out of nowhere. Staying forever is most likely to
 2217:        Probably nowhere is there so much spectacular painting on
 ```
-notes: Locate "nowhere" in terms of line number.
+notes: Locate "nowhere" in terms of line number. (i.e, lin 1989 and 2217 in WhereToItaly.txt)
 ```
 $ grep -n "civilization" travel_guides/berlitz1/WhereToItaly.txt
 98:        instincts of Western civilization. Only to the uninitiated do Italian
